@@ -1,0 +1,110 @@
+extends layout
+
+block content
+  // Main
+  #main
+    // One
+    section#one
+      .container
+        header.major
+          h2 Read Only
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+          p
+            | Just an incredibly simple responsive site
+            br
+            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;template freebie by 
+            a(href='http://html5up.net') HTML5 UP
+            | .
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        p
+          | Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.
+    // Two
+    section#two
+      .container
+        h3 Things I Can Do
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        p
+          | Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        ul.feature-icons
+          li.fa-code Write all the code
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+          li.fa-cubes Stack small boxes
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+          li.fa-book Read books and stuff
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+          li.fa-coffee Drink much coffee
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+          li.fa-bolt Lightning bolt
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+          li.fa-users Shadow clone technique
+    // Three
+    section#three
+      .container
+        h3 A Few Accomplishments
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        p
+          | Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        .features
+          article
+            a.image(href='#')
+              img(src='images/pic01.jpg', alt='')
+            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+            .inner
+              h4 Possibly broke spacetime
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              p
+                | Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+          article
+            a.image(href='#')
+              img(src='images/pic02.jpg', alt='')
+            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+            .inner
+              h4 Terraformed a small moon
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              p
+                | Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+          article
+            a.image(href='#')
+              img(src='images/pic03.jpg', alt='')
+            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+            .inner
+              h4 Snapped dark matter in the wild
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              p
+                | Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.
+    // Four
+    section#four
+      .container
+        h3 Contact Me
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        p
+          | Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        form(method='post', action='#')
+          .row.uniform
+            .6u(class='12u(xsmall)')
+              input#name(type='text', name='name', placeholder='Name')
+            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+            .6u(class='12u(xsmall)')
+              input#email(type='email', name='email', placeholder='Email')
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+          .row.uniform
+            .12u
+              input#subject(type='text', name='subject', placeholder='Subject')
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+          .row.uniform
+            .12u
+              textarea#message(name='message', placeholder='Message', rows='6')
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+          .row.uniform
+            .12u
+              ul.actions
+                li
+                  input.special(type='submit', value='Send Message')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                li
+                  input(type='reset', value='Reset Form')
